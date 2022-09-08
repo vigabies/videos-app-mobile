@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'the-conjuring',
+    loadChildren: () => import('./the-conjuring/the-conjuring.module').then( m => m.TheConjuringPageModule)
+  },
 ];
 
 @NgModule({
