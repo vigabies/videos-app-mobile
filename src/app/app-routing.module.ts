@@ -14,7 +14,27 @@ const routes: Routes = [
   {
     path: 'the-conjuring',
     loadChildren: () => import('./the-conjuring/the-conjuring.module').then( m => m.TheConjuringPageModule)
+  },  {
+    path: 'pinoquio',
+    loadChildren: () => import('./pinoquio/pinoquio.module').then( m => m.PinoquioPageModule)
   },
+  {
+    path: 'encanto',
+    loadChildren: () => import('./encanto/encanto.module').then( m => m.EncantoPageModule)
+  },
+  {
+    path: 'orfa',
+    loadChildren: () => import('./orfa/orfa.module').then( m => m.OrfaPageModule)
+  },
+  {
+    path: 'oneday',
+    loadChildren: () => import('./oneday/oneday.module').then( m => m.OnedayPageModule)
+  },
+  {
+    path: 'love-rose',
+    loadChildren: () => import('./love-rose/love-rose.module').then( m => m.LoveRosePageModule)
+  },
+
 ];
 
 @NgModule({

@@ -1,20 +1,77 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
     <ion-title>
-      MOVIE
+      MOVIES
     </ion-title>
+
+    <ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
+
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <ion-searchbar placeholder="Pesquisar"></ion-searchbar>
+
+
+  <ion-toolbar color="cinzagab">
+    <ion-title>Terror</ion-title>
+  </ion-toolbar>
 
   <ion-item routerLink="/the-conjuring">
     <ion-thumbnail slot="start" >
-      <img alt="cartaz" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/o94LZsIKt0priAca7hoN4yz7a1d.jpg" />
+      <img alt="cartaz" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1NxHKZW5DPbUFtbF3MxbdSyxRqU.jpg" />
     </ion-thumbnail>
     <ion-label>The Conjuring</ion-label>
-
   </ion-item>
+
+  <ion-item routerLink="/orfa">
+    <ion-thumbnail slot="start" >
+      <img alt="cartaz" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uRdpVgEufzYNVnDPTXEjt0mpD99.jpg" />
+    </ion-thumbnail>
+    <ion-label>Orfã 2</ion-label>
+  </ion-item>
+
+  <ion-toolbar color="cinzagab">
+    <ion-title>Animações</ion-title>
+  </ion-toolbar>
+
+  <ion-item routerLink="/pinoquio">
+    <ion-thumbnail slot="start" >
+      <img alt="cartaz" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hVPMjz4GXxxS4dMcaxTComi3KzR.jpg" />
+    </ion-thumbnail>
+    <ion-label>Pinóquio</ion-label>
+  </ion-item>
+
+  <ion-item routerLink="/encanto">
+    <ion-thumbnail slot="start" >
+      <img alt="cartaz" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg" />
+    </ion-thumbnail>
+    <ion-label>Encanto</ion-label>
+  </ion-item>
+
+  <ion-toolbar color="cinzagab">
+    <ion-title>Romanticos</ion-title>
+  </ion-toolbar>
+
+  <ion-item routerLink="/oneday">
+    <ion-thumbnail slot="start" >
+      <img alt="cartaz" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jgEZqFqQgM81nVyHKtXDV0UxKGa.jpg" />
+    </ion-thumbnail>
+    <ion-label>One Day</ion-label>
+  </ion-item>
+
+  <ion-item routerLink="/love-rose">
+    <ion-thumbnail slot="start" >
+      <img alt="cartaz" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/azlKLU8YN1dY5bknWVWprIdjc7X.jpg" />
+    </ion-thumbnail>
+    <ion-label>Simplesmente Acontece</ion-label>
+  </ion-item>
+
+
 
 
 </ion-content>
